@@ -30,6 +30,8 @@ body {
     line-height: 1.17;
     color: #4d5ae5; 
     color: var(--primary-logo-color);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .logo.link {
@@ -40,7 +42,7 @@ body {
     color: var(--secondary-logo-color);
 }
 
-.nav .list-main {
+.list link {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -48,16 +50,21 @@ body {
     line-height: 1.5em;
     color: #2E2F42;
     list-style: none;
+    text-decoration: none;
 }
 
-.address .link {
-    font-style: normal
+address {
+    font-style: normal;
+}
+
+.address-link {
+    font-style: normal;
     color: var(--primary-color);
 
 }
 
-.address .link:hover,
-.address .link:focus {
+.address-link:hover,
+.address-link:focus {
     color: #404bbf;
 }
 
@@ -67,8 +74,13 @@ body {
     color: #404bbf;
 }
 
-.section-first {
+.section-one {
     color: var(--secondary-logo-color);
+}
+
+
+.section-four {
+    background-color: #F4F4FD;
 }
 
 .title {
@@ -76,9 +88,34 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: var(--secondary-logo-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
+.title-h2 {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--secondary-logo-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.title-h3 {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--secondary-logo-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-transform: capitalize
+}
 
 
 .button-main {
@@ -97,4 +134,8 @@ body {
 .button-main:focus {
     background-color: #404BBF;
     cursor: pointer;
+}
+
+.footer {
+    color: var(--secondary-logo-color);
 }
