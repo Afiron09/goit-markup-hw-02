@@ -75,7 +75,7 @@ address {
 }
 
 .section-one {
-    color: var(--secondary-logo-color);
+    background-color: var(--secondary-logo-color);
 }
 
 
@@ -92,6 +92,7 @@ address {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    
 }
 
 .title-h2 {
