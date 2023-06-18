@@ -1,0 +1,67 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --title-font: 'Raleway', sans-serif;
+    --primary-black-color: #212121;
+    --primary-white-color: #ffffff;
+    --primary-accent-color: #03a9f4;
+    --secondary-accent-color: #0288d1;
+    --active-link-color: #f44336;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.logo {
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.166;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42; 
+}
+
+.span-logo {
+    color: #4D5AE5;
+}
+
+.nav .nav-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #2E2F42;
+}
+
+.nav .nav-link:hover, 
+.nav .nav-link:focus {
+    color: #404BBF;
+}
+
+.title {
+
+}
+
+
+
+.button {
+    /* Стилі для кнопок і посилань */
+    /* Додайте тут власні стилі для кнопок і посилань */
+}
+
+.button:hover,
+.button:focus {
+    /* Стилі для активного стану */
+    /* Додайте тут власні стилі для активного стану */
+}
