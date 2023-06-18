@@ -1,13 +1,13 @@
 :root {
     --primary-font: 'Roboto', sans-serif;
     --title-font: 'Raleway', sans-serif;
-    --primary-black-color: #212121;
     --primary-white-color: #ffffff;
     --primary-accent-color: #03a9f4;
     --secondary-accent-color: #0288d1;
     --active-link-color: #f44336;
     --primary-logo-color: #4d5ae5;
     --secondary-logo-color: #2e2f42;
+    --primary-color: #434455;
 
 }
 
@@ -50,24 +50,51 @@ body {
     list-style: none;
 }
 
-.nav .nav-link:hover, 
-.nav .nav-link:focus {
-    color: #404BBF;
+.address .link {
+    font-style: normal
+    color: var(--primary-color);
+
+}
+
+.address .link:hover,
+.address .link:focus {
+    color: #404bbf;
+}
+
+
+.nav .list-main:hover,
+.nav .list-main:focus {
+    color: #404bbf;
+}
+
+.section-first {
+    color: var(--secondary-logo-color);
 }
 
 .title {
-
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
 
 
 
-.button {
-    /* Стилі для кнопок і посилань */
-    /* Додайте тут власні стилі для кнопок і посилань */
+.button-main {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    
+
 }
 
-.button:hover,
-.button:focus {
-    /* Стилі для активного стану */
-    /* Додайте тут власні стилі для активного стану */
+.button-main:hover,
+.button-main:focus {
+    background-color: #404BBF;
+    cursor: pointer;
 }
