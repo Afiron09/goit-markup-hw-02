@@ -6,6 +6,9 @@
     --primary-accent-color: #03a9f4;
     --secondary-accent-color: #0288d1;
     --active-link-color: #f44336;
+    --primary-logo-color: #4d5ae5;
+    --secondary-logo-color: #2e2f42;
+
 }
 
 body {
@@ -16,6 +19,7 @@ body {
     line-height: 1.5em;
     letter-spacing: 0.02em;
     color: #434455;
+    background-color: var(--primary-white-color);
 }
 
 .logo {
@@ -23,25 +27,27 @@ body {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.166;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2E2F42; 
+    line-height: 1.17;
+    color: #4d5ae5; 
+    color: var(--primary-logo-color);
+}
+
+.logo.link {
+    text-decoration: none;
 }
 
 .span-logo {
-    color: #4D5AE5;
+    color: var(--secondary-logo-color);
 }
 
-.nav .nav-link {
+.nav .list-main {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5em;
     color: #2E2F42;
+    list-style: none;
 }
 
 .nav .nav-link:hover, 
