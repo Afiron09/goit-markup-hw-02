@@ -42,13 +42,13 @@ body {
     color: var(--secondary-logo-color);
 }
 
-.list link {
+.list-link {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5em;
-    color: #2E2F42;
+    color: var(--secondary-logo-color);
     list-style: none;
     text-decoration: none;
 }
@@ -69,8 +69,8 @@ address {
 }
 
 
-.nav .list-main:hover,
-.nav .list-main:focus {
+.list-link:hover,
+.list-link:focus {
     color: #404bbf;
 }
 
@@ -95,7 +95,7 @@ address {
     
 }
 
-.title-h2 {
+.title-two {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -106,7 +106,7 @@ address {
     line-height: 1.2;
 }
 
-.title-h3 {
+.title-three {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
