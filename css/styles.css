@@ -72,6 +72,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--address-text-color);
+    text-decoration: none;
 }
 
 .addr.link:hover,
@@ -106,4 +107,8 @@ body {
 .button-order:hover,
 .button-order:focus {
     background-color: var(--active-link-color);
+}
+
+.section-two {
+
 }
