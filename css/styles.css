@@ -109,6 +109,17 @@ body {
     background-color: var(--active-link-color);
 }
 
-.section-two {
+.title-advantages {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-accent-color);
+}
 
+.two-p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    
 }
