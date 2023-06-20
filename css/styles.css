@@ -10,13 +10,14 @@
     --span-text-color: #2e2f42;
     --address-text-color: #434455;
 }
-.body {
-    font-family: var(--primary-font);
+
+body {
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: var(--primary-white-color);
 }
 
-.logo{
+.logo.link {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -24,11 +25,10 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-text-color);
-}
-
-.logo.link {
     text-decoration: none;
 }
+
+
 
 .span-logo {
     color: var(--span-text-color);
