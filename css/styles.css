@@ -54,6 +54,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--primary-accent-color);
     text-decoration: none
+    background-color: #434455;
 }
 
 .link:hover,
@@ -104,5 +105,5 @@ body {
 
 .button-order:hover,
 .button-order:focus {
-    color: var(--active-link-color);
+    background-color: var(--active-link-color);
 }
