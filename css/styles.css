@@ -131,5 +131,15 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--primary-accent-color);
+
+}
+
+.section-four {
+    background-color: #F4F4FD;
+
+}
+
+.four-list {
+    background-color: #FFFFFF;
     
 }
