@@ -76,9 +76,6 @@ body {
     text-decoration: none;
 }
 
-.link {
-    color: var(--address-text-color);
-}
 
 .addr.link:hover,
 .addr.link:focus {
