@@ -8,6 +8,7 @@
     --primary-logo-color: #4d5ae5;
     --secondary-logo-color: #2e2f42;
     --primary-color: #434455;
+    --text-footer-color: #F4F4FD;
 
 }
 
@@ -22,7 +23,7 @@ body {
     background-color: var(--primary-white-color);
 }
 
-.logo.link {
+.logo {
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -35,8 +36,11 @@ body {
     text-decoration: none;
 }
 
+.link {
+    text-decoration: none
+}
 
-.span-logo {
+.logo-text {
     color: var(--secondary-logo-color);
 }
 
@@ -44,7 +48,7 @@ body {
     color: #f4f4fd;
 }
 
-.list-link {
+.nav-link {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -52,6 +56,11 @@ body {
     line-height: 1.5em;
     color: var(--secondary-logo-color);
     list-style: none;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.link{
     text-decoration: none;
 }
 
@@ -135,4 +144,8 @@ font-style: normal;
 
 .footer {
     background-color: var(--secondary-logo-color);
+}
+
+.text-footer {
+    color: var(--text-footer-color);
 }
