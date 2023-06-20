@@ -37,7 +37,7 @@ body {
 }
 
 .link {
-    text-decoration: none
+    text-decoration: none;
 }
 
 .logo-text {
@@ -91,7 +91,7 @@ address {
 
 
 .section-four {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
 }
 
 .title {
@@ -151,4 +151,8 @@ font-style: normal;
 
 .text-footer {
     color: var(--text-footer-color);
+}
+
+.four-p {
+    font-size: 16px;
 }
