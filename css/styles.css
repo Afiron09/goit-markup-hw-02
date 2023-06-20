@@ -1,0 +1,71 @@
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --title-font: "Raleway", sans-serif;
+    --primary-black-color: #212121;
+    --primary-white-color: #ffffff;
+    --primary-accent-color: #2e2f42;
+    --secondary-accent-color: #404bbf;
+    --active-link-color: #404bbf;
+    --logo-text-color: #4d5ae5;
+    --span-text-color: #2e2f42;
+    --address-text-color: #434455;
+}
+.body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: var(--primary-white-color);
+}
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-text-color);
+}
+
+.logo.link {
+    text-decoration: none;
+}
+
+.span-logo {
+    color: var(--span-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.nav.link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-accent-color);
+    text-decoration: none;
+
+}
+
+.link:hover,
+.link:focus {
+  color: var(--active-link-color);
+}
+
+.address {
+    font-style: normal;
+
+}
+
+.addr.link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--address-text-color);
+}
+
+.addr.link:hover,
+.addr.link:focus {
+   color: var(--active-link-color);
+}
